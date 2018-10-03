@@ -12,7 +12,7 @@ Explanation: 342 + 465 = 807.
 
 /**  Your Solution goes here   **/
 
-class Solution {
+class Sol {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
          ListNode dummy{0};
@@ -28,7 +28,4 @@ public:
             l2 = l2 ? l2->next : nullptr;
             curr = curr->next;
         }
-
-        return dummy.next;
-    }
-};
+        return dummy.next;}};
